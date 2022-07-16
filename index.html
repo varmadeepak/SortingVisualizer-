@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<br />
+	<p class="header">Bubble Sort</p>
+	<p class="sub">Manual Entry</p>
+	<p>Choose Method</p>
+	<div class="choose">
+		
+		<ul>
+			
+			<li><a href="index_main.html">Random Numbers</a></li>
+			<li><a href="index.html">Manual Entry</a></li>
+		</ul>
+	</div>
+
+	<div class="element">
+		<label for="arrip">Enter Integers</label>
+		<input type="text" id="arrip">
+		<button type="button" id="add">Add </button>
+		<div class="slide"><label for="delay">Speed</label> : <input id="delay" type="range" name="delay"
+			min="0" max="1000" value="25" oninput="setup()" onchange="setup()">
+		<span id="d"></span></div>
+		<button id="btn">Click to Sort</button>
+	</div>
+	<div id="array"></div>
+	<div class="text_content">
+		<div class="f_text">
+		  <p id="code"></p>
+		</div>
+		<div class="flow">
+		  <ol>
+			<li> <p id="code1">Check if the LeftElement is greater than RightElement</p></li>
+			<br>
+			<br>
+			<li> <p id="code3">></p>
+			  <ul>
+				<li><p id="code2_1"> </p></li>
+			  </ul>
+			</li>
+			<br>
+			<br>
+			<li><p id="code4"><</p>
+			  <ul>
+				<li><p id="code4_1"> </p></li>
+			  </ul>
+			<br>
+		  </ol>
+		</div>
+	  </div>
+	<script src="js/temp.js"></script>
+</body>
+
+</html>
