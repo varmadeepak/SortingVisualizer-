@@ -16,7 +16,6 @@
 	<br />
 	<p class="header">Bubble Sort</p>
 	<p class="sub">Random Numbers</p>
-	<p>Choose Method</p>
 	<div class="choose">
 		<ul>
       <li><a href="index.html">Random Numbers</a></li>
@@ -55,7 +54,17 @@
     </div>
   </div>
 	<script src="js/script.js"></script>
-	
+  <script>
+    function openNav() {
+      document.getElementById("actions-hide").style.width = "250px";
+      document.getElementById("actions").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("actions-hide").style.width = "0";
+      document.getElementById("actions").style.marginLeft= "0";
+    }
+    </script>
 </body>
 
 </html>
