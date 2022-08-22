@@ -3,6 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	background-color: #eee;
+}
 
 .header {
 	font-size: 40px;
@@ -11,9 +14,6 @@
 	color: white;
 	text-transform:uppercase ;
 }
-.text_content{
-	border: 5px solid green;
-}
 .sub
 {
 	font-size: 25px;
@@ -21,14 +21,13 @@
 }
 .choose{
 	background-color:whitesmoke;
-	
 }
 .choose li a
 {
 	text-decoration: none;
 }
 #array {
-	background-color: white;
+	background-color: #eee;
 	height: 413px;
 	width: 598px;
 	margin: auto;
@@ -38,7 +37,31 @@
 	left: 120px;
 	bottom: 5px;
 }
-
+#actions{
+	bottom: 60px;
+left: 43px;
+}
+.panel {
+	position: fixed;
+	color: #fff;
+	width: 0;
+	overflow: hidden;
+	background: #777;
+	  background-color: rgb(119, 119, 119);
+	white-space: nowrap;
+  }
+  #actions-hide {
+	bottom: 60px;
+	left: 0;
+	padding-left: 14px;
+	padding-right: 14px;
+  }
+  .panel-hide {
+	position: fixed;
+	cursor: pointer;
+	background: #777;
+	  background-color: rgb(119, 119, 119);
+  }
 .block {
 	width: 28px;
 	background-color: #6b5b95;
@@ -67,7 +90,9 @@
 	padding: 10px;
 	margin-top:20px;
 	margin-left: 22px;
+	cursor: pointer;
 }
+
 .element{
 	margin: 21px 109px;
 }
@@ -80,13 +105,16 @@
 .flow{
 	padding: 35px;
 	font-size: 20px;
-	line-height: 1.2;
+	line-height: 1.2;	
 }
 .text_content{
 	position: absolute;
 	right: 10px;
 	width: 309px;
 	height: 469px;
+	-webkit-box-shadow: -2px -12px 19px 0px rgba(153,113,153,1);
+-moz-box-shadow: -2px -12px 19px 0px rgba(153,113,153,1);
+box-shadow: -2px -12px 19px 0px rgba(153,113,153,1);
 }
 
 .slide{
